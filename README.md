@@ -59,15 +59,49 @@ LearnScape aims to make education feel more like exploration than obligation.
 
 ---
 
-## Roadmap
+## 📍 Roadmap
 
-| Phase | Goal | Timeline |
-|-------|------|----------|
-| 🧪 **Foundation Setup** | Repository, login interface, README | ✅ Done |
-| 🚀 **MVP Core Features** | Uploads, manual + AI-assisted elaboration, review system | In development |
-| 🎯 **First Demo Release** | Usable prototype with learning cycle integration | ~2 months |
-| 🧠 **Advanced Intelligence Layer** | AI feedback optimization, smart review, credit economy | Post-MVP |
-| 🎮 **Immersive Layer (optional)** | Avatar, gamified world, mission-based learning | Future phase |
+### **Phase 1 — Foundation & MVP (June–August 2025)**
+> 🛠 *Goal: Build a functional MVP with core features for testing and early feedback.*
+
+- Set up project infrastructure (GitHub, Vercel, hosting, CI/CD).
+- Develop first static frontend pages (Login, Signup).
+- Implement basic backend: user authentication, secure session handling.
+- Enable file upload (text, PDF, audio) and storage system.
+- Integrate OpenAI API for basic AI analysis (summaries, flashcards, quizzes).
+- Introduce the LearnCredits system to incentivize human-AI collaboration.
+- Build basic dashboard to navigate resources and user progress.
+- Push first version online (publicly accessible prototype).
+- Collect qualitative feedback from early users (students, peers, mentors).
+
+### **Phase 2 — Learning Engine & UX Refinement (Sept–Oct 2025)**
+> 🎯 *Goal: Strengthen core mechanics, improve UI/UX, and expand functionality.*
+
+- Develop “Learning Lab” with AI-supported re-elaboration tools.
+- Organize resource structure: Primary ➝ Reworking ➝ Review ➝ Exploration.
+- Implement spaced repetition logic and intelligent review scheduling.
+- Add basic performance tracking: XP, review streaks, skill growth metrics.
+- Create visual graphs and feedback loops for user engagement.
+- Integrate support for study “missions” and daily learning goals.
+- Begin experimentation with basic gamification dynamics.
+
+### **Phase 3 — Immersive Layer & Social Features (Late 2025–Early 2026)**
+> 🌍 *Goal: Move toward a truly immersive, engaging and social learning experience.*
+
+- Start prototyping 3D interface concepts with Three.js or Babylon.js.
+- Create customizable avatars for user identity and progression.
+- Design and test interactive environments for study-based exploration.
+- Introduce collaborative features (challenges, friend system, shared progress).
+- Begin closed beta testing with selected student cohorts.
+
+### **Phase 4 — Vision Expansion & AI Autonomy (2026+)**
+> 🚀 *Goal: Extend LearnScape toward its long-term vision of a truly transformative learning platform.*
+
+- Develop or fine-tune a custom AI agent optimized for learning facilitation.
+- Implement procedural content generation for exercises, missions, and simulations.
+- Integrate adaptive curriculum planning based on user goals and performance.
+- Launch public alpha version with scalable backend and cloud architecture.
+- Initiate partnerships with educators and open science communities.
 
 ---
 
@@ -80,7 +114,24 @@ The repository has been initialized, with the first HTML/CSS interfaces develope
 
 ## Team
 
-- **Jacopo Vittori** — Vision lead, frontend developer, product strategist  
-- **Kevin Shytaj** — Backend developer, systems architecture and integration
+### **Jacopo Vittori**  
+**Founder · Product & Vision Lead · UX Designer · Frontend Developer · AI Research Planner**
+
+- Ideatore di LearnScape, guida l’intero sviluppo strategico e concettuale del progetto.  
+- Cura il design dell’esperienza utente e la struttura pedagogica della piattaforma.  
+- Responsabile dello sviluppo frontend iniziale (HTML, CSS, in seguito JS/React).  
+- Supervisiona l’integrazione dell’AI (in funzione di supporto cognitivo, non sostitutiva).  
+- Pianifica lo sviluppo di una futura AI proprietaria integrata.  
+- Definisce la roadmap tecnica e concettuale, in linea con la visione a lungo termine.
+
+### **Kevin Shytaj**  
+**Backend Developer · API & Database Engineer · Infrastructure Architect**
+
+- Responsabile del backend: gestione utenti, autenticazione, flussi server e API.  
+- Gestisce l’integrazione con database (es. Supabase/Firebase/PostgreSQL).  
+- Cura l’infrastruttura di hosting, il deployment (es. Vercel), e l'automazione CI/CD.  
+- Contribuisce alla scalabilità, sicurezza e manutenibilità del sistema.
+
+> *This project currently follows the agile and iterative approach of a micro-startup, though it is fully independent and not yet a registered company.*
 
 We are a self-managed, independent team with a startup-like methodology, though not incorporated. The project is experimental, science-based, and mission-driven.
