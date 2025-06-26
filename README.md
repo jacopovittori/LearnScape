@@ -59,7 +59,7 @@ LearnScape aims to make education feel more like exploration than obligation.
 
 ---
 
-## 📍 Roadmap
+## Roadmap
 
 ### **Phase 1 — Foundation & MVP (June–August 2025)**
 > 🛠 *Goal: Build a functional MVP with core features for testing and early feedback.*
@@ -114,23 +114,11 @@ The repository has been initialized, with the first HTML/CSS interfaces develope
 
 ## Team
 
-### **Jacopo Vittori**  
-**Founder · Product & Vision Lead · UX Designer · Frontend Developer · AI Research Planner**
+- **Jacopo Vittori** – Founder, Product Designer, Frontend Developer  
+  Visionary behind LearnScape, responsible for the original concept, UI/UX design, feature definition, and frontend development. He also oversees the project's overall direction and management, with the long-term goal of developing a custom AI engine to power the platform.
 
-- Ideatore di LearnScape, guida l’intero sviluppo strategico e concettuale del progetto.  
-- Cura il design dell’esperienza utente e la struttura pedagogica della piattaforma.  
-- Responsabile dello sviluppo frontend iniziale (HTML, CSS, in seguito JS/React).  
-- Supervisiona l’integrazione dell’AI (in funzione di supporto cognitivo, non sostitutiva).  
-- Pianifica lo sviluppo di una futura AI proprietaria integrata.  
-- Definisce la roadmap tecnica e concettuale, in linea con la visione a lungo termine.
-
-### **Kevin Shytaj**  
-**Backend Developer · API & Database Engineer · Infrastructure Architect**
-
-- Responsabile del backend: gestione utenti, autenticazione, flussi server e API.  
-- Gestisce l’integrazione con database (es. Supabase/Firebase/PostgreSQL).  
-- Cura l’infrastruttura di hosting, il deployment (es. Vercel), e l'automazione CI/CD.  
-- Contribuisce alla scalabilità, sicurezza e manutenibilità del sistema.
+- **Kevin Shytaj** – Backend Developer, Technical Collaborator  
+  Focused on backend development, including server-side architecture, user authentication, database management, and API integrations. Collaborates closely with the frontend to ensure smooth functionality and scalability.
 
 > *This project currently follows the agile and iterative approach of a micro-startup, though it is fully independent and not yet a registered company.*
 
