@@ -43,6 +43,24 @@ The MVP focuses on a minimal but essential set of features:
 
 ---
 
+## Project Structure
+
+Here is the current folder structure for LearnScape:
+LearnScape/
+├── assets/ # Static assets like images, audio, fonts
+├── backend/ # Backend logic (controllers, routes, DB models, etc.)
+├── docs/ # Internal documentation and technical specs
+├── pages/ # HTML pages (login, signup, dashboard, etc.)
+├── scripts/ # Frontend JavaScript logic
+├── styles/ # CSS stylesheets
+├── .env # Environment variables (excluded from version control)
+├── .gitignore
+└── README.md
+
+For a complete explanation of how to navigate and work within this structure, see the [Development Guidelines](docs/DEV_GUIDELINES.md).
+
+---
+
 ## Target Audience
 
 - High school and university students
@@ -62,9 +80,9 @@ LearnScape aims to make education feel more like exploration than obligation.
 ## Roadmap
 
 ### **Phase 1 — Foundation & MVP (June–August 2025)**
-> 🛠 *Goal: Build a functional MVP with core features for testing and early feedback.*
+> *Goal: Build a functional MVP with core features for testing and early feedback.*
 
-- Set up project infrastructure (GitHub, Vercel, hosting, CI/CD).
+- Set up project infrastructure (GitHub, Railway, hosting, CI/CD).
 - Develop first static frontend pages (Login, Signup).
 - Implement basic backend: user authentication, secure session handling.
 - Enable file upload (text, PDF, audio) and storage system.
@@ -75,7 +93,7 @@ LearnScape aims to make education feel more like exploration than obligation.
 - Collect qualitative feedback from early users (students, peers, mentors).
 
 ### **Phase 2 — Learning Engine & UX Refinement (Sept–Oct 2025)**
-> 🎯 *Goal: Strengthen core mechanics, improve UI/UX, and expand functionality.*
+> *Goal: Strengthen core mechanics, improve UI/UX, and expand functionality.*
 
 - Develop “Learning Lab” with AI-supported re-elaboration tools.
 - Organize resource structure: Primary ➝ Reworking ➝ Review ➝ Exploration.
@@ -86,7 +104,7 @@ LearnScape aims to make education feel more like exploration than obligation.
 - Begin experimentation with basic gamification dynamics.
 
 ### **Phase 3 — Immersive Layer & Social Features (Late 2025–Early 2026)**
-> 🌍 *Goal: Move toward a truly immersive, engaging and social learning experience.*
+> *Goal: Move toward a truly immersive, engaging and social learning experience.*
 
 - Start prototyping 3D interface concepts with Three.js or Babylon.js.
 - Create customizable avatars for user identity and progression.
@@ -95,7 +113,7 @@ LearnScape aims to make education feel more like exploration than obligation.
 - Begin closed beta testing with selected student cohorts.
 
 ### **Phase 4 — Vision Expansion & AI Autonomy (2026+)**
-> 🚀 *Goal: Extend LearnScape toward its long-term vision of a truly transformative learning platform.*
+> *Goal: Extend LearnScape toward its long-term vision of a truly transformative learning platform.*
 
 - Develop or fine-tune a custom AI agent optimized for learning facilitation.
 - Implement procedural content generation for exercises, missions, and simulations.
