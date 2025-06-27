@@ -10,7 +10,7 @@ LearnScape addresses one of the core limitations of traditional education: the l
 
 Unlike generic tools like Notion, Anki, or ChatGPT, LearnScape is purpose-built for studying. It offers a structured, research-informed environment that enhances learning performance through the synergy of AI feedback, content reworking, personalized repetition, and visual organization of knowledge.
 
-In its first version, LearnScape does not use AI to replace the student’s cognitive effort, but to **support it**, much like a coach or a responsive tutor would.
+In its first version, LearnScape does not use AI to replace the student's cognitive effort, but to **support it**, much like a coach or a responsive tutor would.
 
 ---
 
@@ -46,16 +46,19 @@ The MVP focuses on a minimal but essential set of features:
 ## Project Structure
 
 Here is the current folder structure for LearnScape:
+
+```plaintext
 LearnScape/
-├── assets/ # Static assets like images, audio, fonts
-├── backend/ # Backend logic (controllers, routes, DB models, etc.)
-├── docs/ # Internal documentation and technical specs
-├── pages/ # HTML pages (login, signup, dashboard, etc.)
-├── scripts/ # Frontend JavaScript logic
-├── styles/ # CSS stylesheets
-├── .env # Environment variables (excluded from version control)
+├── assets/         # Static assets like images, audio, fonts
+├── backend/        # Backend logic (controllers, routes, DB models, etc.)
+├── docs/           # Internal documentation and technical specs
+├── pages/          # HTML pages (login, signup, dashboard, ecc.)
+├── scripts/        # Frontend JavaScript logic
+├── styles/         # CSS stylesheets
+├── .env            # Environment variables (escluso dal version control)
 ├── .gitignore
 └── README.md
+```
 
 For a complete explanation of how to navigate and work within this structure, see the [Development Guidelines](docs/DEV_GUIDELINES.md).
 
@@ -95,12 +98,12 @@ LearnScape aims to make education feel more like exploration than obligation.
 ### **Phase 2 — Learning Engine & UX Refinement (Sept–Oct 2025)**
 > *Goal: Strengthen core mechanics, improve UI/UX, and expand functionality.*
 
-- Develop “Learning Lab” with AI-supported re-elaboration tools.
+- Develop "Learning Lab" with AI-supported re-elaboration tools.
 - Organize resource structure: Primary ➝ Reworking ➝ Review ➝ Exploration.
 - Implement spaced repetition logic and intelligent review scheduling.
 - Add basic performance tracking: XP, review streaks, skill growth metrics.
 - Create visual graphs and feedback loops for user engagement.
-- Integrate support for study “missions” and daily learning goals.
+- Integrate support for study "missions" and daily learning goals.
 - Begin experimentation with basic gamification dynamics.
 
 ### **Phase 3 — Immersive Layer & Social Features (Late 2025–Early 2026)**
