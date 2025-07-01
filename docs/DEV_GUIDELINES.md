@@ -1,6 +1,6 @@
 # LearnScape – Development Guidelines & Documentation
 
-Ogni cartella ha un ruolo ben definito. Il codice deve essere chiaro, modulare e facilmente navigabile.
+Each folder has a well-defined role. Code must be clear, modular, and easily navigable.
 
 ---
 
@@ -8,7 +8,7 @@ Ogni cartella ha un ruolo ben definito. Il codice deve essere chiaro, modulare e
 
 ### Naming Conventions
 
-- Files & Folders: `kebab-case` (es. `main-style.css`, `login-form.js`)
+- Files & Folders: `kebab-case` (e.g., `main-style.css`, `login-form.js`)
 - JS Variables: `camelCase`
 - Environment Files: `SNAKE_CASE`
 
@@ -16,97 +16,73 @@ Ogni cartella ha un ruolo ben definito. Il codice deve essere chiaro, modulare e
 
 ### HTML
 
-- Niente CSS o JS inline.
-- Ogni pagina deve includere link a fogli di stile e script dedicati.
+- No inline CSS or JS.
+- Each page must include links to dedicated stylesheets and scripts.
 
 ---
 
 ### CSS
 
-- Suddividere per pagina o sezione.
-- Utilizzare variabili CSS per colori, spaziature, font.
-- Classi semanticamente descrittive (es. `.form-group`, non `.box1`).
+- Split by page or section.
+- Use CSS variables for colors, spacing, fonts.
+- Semantically descriptive classes (e.g., `.form-group`, not `.box1`).
 
 ---
 
 ### JavaScript (Client-side)
 
-- Separare la logica per pagina o funzionalità.
-- Nominare funzioni e file in base alla loro responsabilità (es. `handleLogin.js`, `signupValidation.js`).
-- Commentare le funzioni complesse.
+- Separate logic by page or feature.
+- Name functions and files according to their responsibility (e.g., `handleLogin.js`, `signupValidation.js`).
+- Comment complex functions.
 
 ---
 
 ### Backend
 
-- Separare chiaramente:
+- Clearly separate:
   - `controllers/`
   - `routes/`
   - `middleware/`
   - `services/`
-- Evitare funzioni anonime all’interno delle route.
-- Organizzare per dominio (es. `/auth`, `/user`, `/quiz`), non solo per tipologia tecnica.
+- Avoid anonymous functions within routes.
+- Organize by domain (e.g., `/auth`, `/user`, `/quiz`), not just by technical type.
 
 ---
 
 ## Internal Documentation
 
-### Dove salvare
-
-Tutti i documenti tecnici, diagrammi, specifiche e concept vanno nella cartella `/docs`.
-
----
-
-### Formati consigliati
-
-| Tipo di file        | Formato                      |
-|---------------------|-------------------------------|
-| Documentazione      | `.md`, `.pdf`                 |
-| Diagrammi           | `.drawio`, `.png`, `.svg`     |
-| Specifiche API      | `.yaml` (OpenAPI), `.md`      |
-| Concept design      | `.md`, `.notion`, `.pdf`      |
-
----
-
-### Cosa documentare
-
-- Scelte architetturali
-- Flussi logici dell’utente
-- API e logiche di business
-- Roadmap e backlog
-- Log di sviluppo e problemi noti
-- Connessioni tra frontend e backend
+For best practices and detailed guidelines on internal documentation, see [Documentation Guidelines](DOCUMENTATION_GUIDELINES.md).
 
 ---
 
 ## Git Versioning
 
-- Fare commit piccoli e significativi.
-- Messaggi chiari:  
-  `feat: add signup form validation`  
+- Make small, meaningful commits.
+- Clear messages:
+  `feat: add signup form validation`
   `fix: align login button`
-- Eseguire `git pull` prima di ogni `push` se si lavora in team.
+- Run `git pull` before every `push` when working in a team.
 
 ---
 
-## Scalabilità futura
+## Future Scalability
 
-- Prevedere estensioni modulari (es. `/game`, `/ai`, `/missioni3D`)
-- Organizzare il codice per dominio funzionale (Domain-Driven Design)
-- Mantenere coerenza nei nomi e nella struttura
+- Plan for modular extensions (e.g., `/game`, `/ai`, `/3Dmissions`)
+- Organize code by functional domain (Domain-Driven Design)
+- Maintain consistency in naming and structure
 
 ---
 
 ## TODO / Evolutive Plans
 
-- Introdurre linting automatico (ESLint, Prettier)
-- Setup CI/CD (es. GitHub Actions)
-- Considerare migrazione a TypeScript
-- Logging avanzato lato backend
+- Introduce automatic linting (ESLint, Prettier)
+- Setup CI/CD (e.g., GitHub Actions)
+- Consider migration to TypeScript
+- Advanced backend logging
 
 ---
 
 ## Vision
 
-LearnScape non è solo un progetto tecnico: è una visione per reinventare il modo in cui si apprende.  
-Con un'integrazione profonda tra AI, interazione e game experience, ogni decisione tecnica deve essere guidata dall'obiettivo di rendere lo studio coinvolgente, personalizzato e accessibile.
+LearnScape is not just a technical project: it is a vision to reinvent the way we learn.
+With deep integration between AI, interaction, and game experience, every technical decision must be guided by the goal of making learning engaging, personalized, and accessible.

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <!-- Definizione del set di caratteri -->
+  <meta charset="UTF-8" />
+  <!-- Responsive: adatta larghezza e zoom al device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- Titolo della scheda del browser -->
+  <title>LearnScape – Login</title>
+  <!-- Collegamento al foglio di stile principale (da creare) -->
+  <link rel="stylesheet" href="styles/style.css" />
+</head>
+<body>
+  <!-- Main container per il form di login -->
+  <main class="ls-login-container">
+    <!-- Sezione specifica del form, utile per centrare e applicare padding/margini -->
+    <section class="ls-form-section">
+      <!-- Titolo principale della pagina -->
+      <h1 class="ls-title">Accedi a LearnScape</h1>
+
+      <!-- Inizio del form: action e method puntano agli endpoint backend -->
+      <form id="ls-login-form" action="/api/login" method="POST" novalidate>
+        <!-- Gruppo email: label + input associato -->
+        <div class="ls-form-group">
+          <label for="ls-login-email">Email</label>
+          <input
+            type="email"
+            id="ls-login-email"
+            name="email"
+            placeholder="tuo@esempio.com"
+            required        <!-- Validazione HTML5: campo obbligatorio -->
+          />
+        </div>
+
+        <!-- Gruppo password: label + input configurato -->
+        <div class="ls-form-group">
+          <label for="ls-login-password">Password</label>
+          <input
+            type="password"
+            id="ls-login-password"
+            name="password"
+            placeholder="••••••••"
+            required        <!-- Validazione HTML5: campo obbligatorio -->
+            minlength="8"   <!-- Validazione HTML5: minimo 8 caratteri -->
+          />
+        </div>
+
+        <!-- Pulsante di invio: classe generica + variante primaria -->
+        <button type="submit" class="ls-btn ls-btn-primary">
+          Accedi
+        </button>
+      </form>
+
+      <!-- Link alternativo per chi non ha un account -->
+      <p class="ls-alt-action">
+        Non hai un account?
+        <a href="signup.html" class="ls-link">Iscriviti</a>
+      </p>
+    </section>
+  </main>
+</body>
+</html>
+

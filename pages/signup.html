@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <!-- Set di caratteri UTF-8 -->
+  <meta charset="UTF-8" />
+  <!-- Meta viewport per garantire responsive design -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- Titolo scheda browser -->
+  <title>LearnScape – Registrazione</title>
+  <!-- Collegamento al CSS principale -->
+  <link rel="stylesheet" href="styles/style.css" />
+</head>
+<body>
+  <!-- Main container per il form di registrazione -->
+  <main class="ls-signup-container">
+    <!-- Sezione del form per margini, padding e layout -->
+    <section class="ls-form-section">
+      <!-- Titolo della pagina -->
+      <h1 class="ls-title">Crea il tuo account</h1>
+
+      <!-- Form di signup: action e method verso backend -->
+      <form id="ls-signup-form" action="/api/signup" method="POST" novalidate>
+        <!-- Campo Nome -->
+        <div class="ls-form-group">
+          <label for="ls-signup-name">Nome</label>
+          <input
+            type="text"
+            id="ls-signup-name"
+            name="name"
+            placeholder="Il tuo nome"
+            required        <!-- Campo obbligatorio -->
+          />
+        </div>
+
+        <!-- Campo Email -->
+        <div class="ls-form-group">
+          <label for="ls-signup-email">Email</label>
+          <input
+            type="email"
+            id="ls-signup-email"
+            name="email"
+            placeholder="tuo@esempio.com"
+            required        <!-- Campo obbligatorio -->
+          />
+        </div>
+
+        <!-- Campo Password -->
+        <div class="ls-form-group">
+          <label for="ls-signup-password">Password</label>
+          <input
+            type="password"
+            id="ls-signup-password"
+            name="password"
+            placeholder="••••••••"
+            required        <!-- Campo obbligatorio -->
+            minlength="8"   <!-- Minimo 8 caratteri -->
+          />
+        </div>
+
+        <!-- Campo Conferma Password -->
+        <div class="ls-form-group">
+          <label for="ls-signup-password-confirm">Conferma Password</label>
+          <input
+            type="password"
+            id="ls-signup-password-confirm"
+            name="passwordConfirm"
+            placeholder="••••••••"
+            required        <!-- Campo obbligatorio -->
+            minlength="8"   <!-- Minimo 8 caratteri -->
+          />
+        </div>
+
+        <!-- Pulsante di registrazione -->
+        <button type="submit" class="ls-btn ls-btn-primary">
+          Registrati
+        </button>
+      </form>
+
+      <!-- Link alternativo per chi ha già un account -->
+      <p class="ls-alt-action">
+        Hai già un account?
+        <a href="login.html" class="ls-link">Accedi</a>
+      </p>
+    </section>
+  </main>
+</body>
+</html>
